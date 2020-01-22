@@ -4,3 +4,6 @@ git status
 git add
 git commit
 git config
+git clone
+git push
+
