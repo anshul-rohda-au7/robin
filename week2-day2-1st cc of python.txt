@@ -1,0 +1,16 @@
+s1=int(input("Enter marks of the first subject"))
+s2=int(input("enter marks of the second subject"))
+s3=int(input("enter marks of the third subject"))
+s4=int(input("enter marks of the fourth subject"))
+s5=int(input("enter marks of the fifth subject"))
+avg=(s1+s2+s3+s4+s5)/5
+if(avg>=90):
+  print("Grade A")
+elif(avg>=70 and avg<90):
+  print("Grade B")
+elif(avg>=50 and avg<70):
+  print("Grade C")
+elif(avg>=30 and avg<50):
+  print("Grade D")
+elif(avg<30):
+  print("Grade E")

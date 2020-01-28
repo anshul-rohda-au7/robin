@@ -1,0 +1,4 @@
+username = input("Please enter your username")
+password = input("Please enter your password")
+if(username!="Priyesh" and password!="password"):
+  print("username does not exist and passwords do not match")
